@@ -1,0 +1,5 @@
+export const types = {
+  APP_BOOTSTRAP_READY: 'Main/APP_BOOTSTRAP_READY',
+  APP_USER_AUTHN: 'Main/USER_AUTHN',
+  APP_USER_LOGGED_OUT: 'Main/USER_LOGGED_OUT',
+};
