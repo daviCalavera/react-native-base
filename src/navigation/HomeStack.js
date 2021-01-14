@@ -22,7 +22,7 @@ const stackNavigationOptions = ({navigation, route}) => {
   if (zeroRouteIndex) {
     tabBarVisible = false;
   }
-
+  console.log('HOMESTACK screen props');
   let drawerLockMode = 'unlocked';
   if (zeroRouteIndex) {
     drawerLockMode = 'locked-closed';
