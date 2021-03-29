@@ -25,7 +25,7 @@ export class ErrorBoundary extends React.Component {
   }
 
   destroyAuthToken = async () => {
-    await AsyncStorage.removeItem('tbx');
+    await AsyncStorage.removeItem('appstate');
   };
 
   handleBackToSignIn = async () => {

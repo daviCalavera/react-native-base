@@ -25,7 +25,7 @@ const createGlobalReducer = () => {
     if (action.type === types.USER_LOGGED_OUT) {
       state = undefined;
 
-      AsyncStorage.removeItem('persist:tbx')
+      AsyncStorage.removeItem('persist:appstate')
         .then((res) => {
           console.log('Persisted Store CLEARED!');
         })

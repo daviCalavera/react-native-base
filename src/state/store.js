@@ -35,7 +35,7 @@ const migrations = {
 
 // Middleware: Redux Persist Config
 const persistConfig = {
-  key: 'tbx',
+  key: 'appstate',
   migrate: createMigrate(migrations, {debug: false}),
   // Storage Method (React Native)
   storage: AsyncStorage,
